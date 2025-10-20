@@ -38,7 +38,6 @@ export default function HomeNavbar(props: HomeNavbarProps) {
 
 const {authMember} = useGlobals();
     
-    /** HANDLERS **/
 
 
     return <div className="home-navbar">
