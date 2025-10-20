@@ -1,0 +1,28 @@
+[33mdc0b898[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m)[m feat : practice useState hooks
+[33mf038f8c[m feat: create Test class component
+[33m59c2d9f[m[33m ([m[1;31morigin/develop[m[33m)[m feat: publish HelpPage screen component
+[33mf35fdee[m feat: publish UserPage screen component
+[33mecdd0de[m feat: Publish order page screen component
+[33m87ba4c7[m[33m ([m[1;31morigin/lost-work[m[33m, [m[1;32mlost-work[m[33m)[m feat: Product and Chosen product sectional components
+[33ma71f1e8[m feat: develop productPage nested routing system
+[33m0ab01ad[m feat: develop events sectional component
+[33m9f9e573[m feat: develop advertisement sectional components
+[33mfa0b100[m fix: modify popular and new dishes components
+[33ma7f5983[m feat: develop newDishes sectional component
+[33m5e24f71[m feat: develop popular dishes sectional component
+[33mb1f366b[m fix: modify statistics sectional components
+[33m8b3fcae[m fix: organize  homepage related sectional components
+[33m49638f7[m feat: @mui/icons-material installed
+[33mbd810dd[m feat: integration footer and basket source
+[33mc77e7ba[m feat: Publish other navbar Header companent
+[33m0a1257f[m fix: modify homeNavbar header component
+[33mac9b635[m fix : homeNavbar menu part refactoring
+[33mce9c11d[m fix:modify root index render logic
+[33m3573e62[m feat: develop header and footer part one
+[33m7ed9f25[m feat: upload client materials
+[33m99d6040[m fix: organize header and footer components
+[33mdf706c4[m fix: develop burak screen based components
+[33m7c9b5b7[m feat: create routing system
+[33m813e1fd[m fix: MUI standart integration
+[33m56a5c7a[m feat: MUI standart integration
+[33m2727f81[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m fix: Initial Setup
