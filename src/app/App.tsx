@@ -10,7 +10,6 @@ import  OtherNavbar  from "./components/headers/OtherNavbar";
 import  HomeNavbar  from "./components/headers/HomeNavbar";
 import  Footer  from "./components/footer";
 import  HelpPage  from "./screens/helpPage";
-import MarketPage from "./screens/MarketPage";
 import Test from "./screens/Test";
 import useBasket from "./hooks/useBasket";
 import AuthenticationModal from "./components/auth";
@@ -99,9 +98,7 @@ function App() {
           handleLogoutRequest={handleLogoutRequest}
           /> )}
         <Switch>
-          <Route path="/shop">
-            <MarketPage />
-          </Route>
+         
           <Route path="/products">
             <ProductsPage onAdd={onAdd}/>
           </Route>

@@ -7,7 +7,7 @@ const Footers = styled.div`
   width: 100%;
   height: 590px;
   display: flex;
-  background: #343434;
+  background: #080534ff;
   background-size: cover;
 `;
 
@@ -20,12 +20,11 @@ export default function Footer() {
         <Stack flexDirection={"row"} sx={{ mt: "94px" }}>
           <Stack flexDirection={"column"} style={{ width: "340px" }}>
             <Box>
-              <img width={"100px"} src={"/icons/burak.svg"} />
+              <img width={"150px"} src={"/icons/LOGO.png"} />
             </Box>
             <Box className={"foot-desc-txt"}>
-              Focusing on the gourmet Turkish breakfast as well as the youth
-              society, CZN Burak Gurme aims to bring Turkish cuisine back. CZN
-              Burak Gurme creates an illusion with its cuisine.
+             Skupiając się na wykwintnym tureckim śniadaniu oraz młodym społeczeństwie, Shafran ma na celu przywrócenie blasku uzbej kuchni.
+              Shafran tworzy kulinarną iluzję, łącząc tradycję z nowoczesnością.
             </Box>
             <Box className="sns-context">
               <img src={"/icons/facebook.svg"} />
@@ -37,13 +36,13 @@ export default function Footer() {
           <Stack sx={{ ml: "288px" }} flexDirection={"row"}>
             <Stack>
               <Box>
-                <Box className={"foot-category-title"}>Bo'limlar</Box>
+                <Box className={"foot-category-title"}>Category</Box>
                 <Box className={"foot-category-link"}>
                   <Link to="/">Home</Link>
                   <Link to="/products">Products</Link>
-                  {authMember && <Link to="/orders">Orders</Link>}
+                    <Link to="/orders">Orders</Link>
                   <Link to="/help">Help</Link>
-                  <Link to="/shop">Market</Link>
+                 
 
                 </Box>
               </Box>
@@ -59,15 +58,15 @@ export default function Footer() {
                 >
                   <Box flexDirection={"row"} className={"find-us"}>
                     <span>L.</span>
-                    <div>Downtown, Dubai</div>
+                    <div>al. Jana Pawła II 61/204,  Warszawa, Poland</div>
                   </Box>
                   <Box className={"find-us"}>
                     <span>P.</span>
-                    <div>+971 4 554 7777</div>
+                    <div>+48 452 420 709</div>
                   </Box>
                   <Box className={"find-us"}>
                     <span>E.</span>
-                    <div>devexuz@gmail.com</div>
+                    <div>shafran@gmail.com</div>
                   </Box>
                   <Box className={"find-us"}>
                     <span>H.</span>
@@ -83,7 +82,7 @@ export default function Footer() {
           sx={{ mt: "80px" }}
         ></Stack>
         <Stack className={"copyright-txt"}>
-          © Copyright Devex Global, All rights reserved.
+          © Copyright Shafran Global, All rights reserved.
         </Stack>
       </Container>
     </Footers>

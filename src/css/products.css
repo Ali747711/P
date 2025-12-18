@@ -332,9 +332,9 @@
     
   .products-page .brands-logo .family-brands .brand-list .review-box {
    width: 300px;
-    height: 430px;
+    height: 250px;
     display: flex;
- 
+    
     flex-direction: column;
     background: #040408;
     border-radius: 20px 20px 0px 0px;

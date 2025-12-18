@@ -108,7 +108,7 @@ export default function Products(props:ProductsProps) {
                 <Stack flexDirection={"column"} alignItems={"center"}>
                     <Stack className={"avatar-big-box"}>
                         <Stack className={"top-text"}>
-                          <p>Burak Restaurant</p>
+                          <p>Shafran Restaurant</p>
                             <Stack className="single-search-big-box">
                                     <input 
                                     type={"search"}
@@ -306,19 +306,19 @@ export default function Products(props:ProductsProps) {
                     <Stack className={"brand-list"}
                     >
                              <Box className={"review-box"}>
-                            <img src={"/img/seafood.webp"} />
+                            <img src={"/img/ta.jpg"} />
                         </Box>
 
                          <Box className={"review-box"}
                          
                          >
-                            <img src={"/img/doner.webp"} />
+                            <img src={"/img/zira.jpg"} />
                           
                         
                         </Box>
                        
                         <Box className={"review-box"}>
-                            <img src={"/img/seafood.webp"} />
+                            <img src={"/img/eastwing.jpg"} />
                         </Box>
                        
                     </Stack>
@@ -331,7 +331,7 @@ export default function Products(props:ProductsProps) {
                         <Box className={"title"}>Our Address</Box>
                         <iframe 
                           style={{marginTop: "60px"}}
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.256214574976!2d-73.9878589845946!3d40.75800457932665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258591a4b9a9d%3A0x7d8a6b1c2b5c9c1e!2sTimes+Square!5e0!3m2!1sen!2sus!4v1678901234567!5m2!1sen!2sus"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.7728170978403!2d20.988233500000003!3d52.247510000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd8373eb171d%3A0xc3274f176b5a4e6e!2sRestauracja%20SZAFRAN!5e0!3m2!1sru!2skr!4v1761667508489!5m2!1sru!2skr"
                           height="700"
                           width={"1300"}
                           referrerPolicy="no-referrer-when-downgrade"

@@ -6,7 +6,6 @@ import { CartItem } from "../../../lib/data/types/search";
 import { useGlobals } from "../../hooks/useGlobals";
 import { serverApi } from "../../../lib/config";
 import { Logout } from "@mui/icons-material";
-import { T } from "../../../lib/data/types/common";
 
 interface HomeNavbarProps {
     cartItem :CartItem[];
@@ -45,9 +44,9 @@ const {authMember} = useGlobals();
 
             <Stack className="menu" >
             <Box>
-                <NavLink to="/">
-                   <p className="brand-logo">
-                   SHAFRAN RESTAURACJA</p>
+                <NavLink to="/home">
+                  <img className="brand-logo"
+                     src="/icons/LOGO.png"/>
                 </NavLink>
              </Box>
               <Stack 
@@ -77,10 +76,7 @@ const {authMember} = useGlobals();
                     activeClassName={"underline"}> Help </NavLink>
                 </Box>
 
-                 <Box  className={"hover-line"}> 
-                    <NavLink to="/shop"
-                    activeClassName={"underline"}> Market </NavLink>
-                </Box>
+                 
                 {/*BASKET*/}
                 <Basket 
                 cartItems={cartItem}
@@ -95,7 +91,9 @@ const {authMember} = useGlobals();
                     <Button variant="contained" 
                     className="login-button" 
                     onClick={() => setLoginOpen(true)}
-                    >Login</Button> 
+                    
+                    >Login</Button>
+                     
                     
                     </Box>) : 
                     (<img className="user-avatar"
@@ -103,6 +101,7 @@ const {authMember} = useGlobals();
                         `${serverApi}/${authMember?.memberImage}`:
                         "/icons/default-user.svg"}
                       aria-haspopup={"true"}
+                      
                       onClick={handleLogoutClick}
                       />) 
                  };
@@ -117,7 +116,7 @@ const {authMember} = useGlobals();
                     elevation: 0,
                     sx: {
                         overflow: 'visible',
-                        filter: 'drop-shadow(0px 2px 8px rgba(0,0,0,0.32))',
+                        filter: 'drop-shadow(0px 2px 8px rgba(90, 79, 15, 0.32))',
                         mt: 1.5,
                         '& .MuiAvatar-root': {
                             width: 32,
@@ -157,12 +156,12 @@ const {authMember} = useGlobals();
             <Stack className={"header-frame"}>  
                 <Stack className={"detail"}> 
                    <Box className={"head-main-txt"}>
-                    World's Most delicious Cousine
+                    Najpyszniejsza kuchnia na świecie
                    </Box>
                    <Box className={"well-txt"}>
-                    The Choice, not just a choice </Box>
+                    Twój wybór, nie tylko wybór. 24 godziny na dobę </Box>
                    <Box className={"servise-txt"}>
-                     24 hours service </Box>   
+                     24/7 obsługa.</Box>   
  
                     <Box className={"signup"}>
                         {!authMember? 

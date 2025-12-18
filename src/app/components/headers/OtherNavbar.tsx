@@ -44,7 +44,7 @@ export  default function OtherNavbar(props: OtherNavbarProps) {
             <Box>
                 <NavLink to="/">
                     <img className="brand-logo"
-                     src="/icons/burak.svg"/>
+                     src="/icons/LOGO.png"/>
                 </NavLink>
              </Box>
               <Stack 
@@ -73,10 +73,7 @@ export  default function OtherNavbar(props: OtherNavbarProps) {
                     <NavLink to="/help"
                     activeClassName={"underline"}> Help </NavLink>
                 </Box>
-                 <Box  className={"hover-line"}> 
-                                    <NavLink to="/shop"
-                                    activeClassName={"underline"}> Market </NavLink>
-                                </Box>
+                 
                 {/*BASKET*/}
                   
                  <Basket cartItems={cartItems}

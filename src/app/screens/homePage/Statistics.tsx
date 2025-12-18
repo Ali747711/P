@@ -9,7 +9,7 @@ export default function Statistics () {
             <Container> 
                 <Stack className= "info">
                     <Stack className= "static-box">   
-                        <Box className= "static-num"> 12 </Box>
+                        <Box className= "static-num"> 2 </Box>
                         <Box className= "static-text"> Restaurant  </Box>
                     </Stack>
 
